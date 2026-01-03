@@ -46,10 +46,10 @@ export default function Login() {
                                   Login
                                 </button>
                                 <div className="demo-credentials">
-                                  <p><strong>Demo Credentials:</strong></p>
+                                  <p><strong>Credentials:</strong></p>
                                   <p> Admin: admin@gmail.com</p>
                                   <p> Password: admin1234</p>
-                                  <hr />
+                              
                                   <p> Customer: customer@gmail.com</p>
                                   <p> Password: customer1234</p>
                                 </div>
