@@ -74,7 +74,7 @@ export default function CustomerDashboard() {
             ))
           ) : (
             <div className="no-restaurants">
-              <p>No restaurants found. Try adjusting your filters! 🔍</p>
+              <p>No restaurants found. Try adjusting your filters!</p>
             </div>
           )}
         </div>
