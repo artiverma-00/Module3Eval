@@ -28,7 +28,7 @@ export default function RestaurantCard({ data, admin, setData }) {
         <h3>{data.restaurantName}</h3>
         <p><strong>Address:</strong> {data.address}</p>
         <p><strong>Type:</strong> {data.type}</p>
-        <p><strong>Parking:</strong> {data.parkingLot ? "Available ✓" : "Not Available ✗"}</p>
+        <p><strong>Parking:</strong> {data.parkingLot ? "Available" : "Not Available ✗"}</p>
         
         {admin && (
           <div className="card-actions">
